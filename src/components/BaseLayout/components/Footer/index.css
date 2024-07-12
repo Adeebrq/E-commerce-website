@@ -1,0 +1,11 @@
+.Footer{
+    height: 3em;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "QuickSand", sans-serif;
+    font-weight: lighter;
+}

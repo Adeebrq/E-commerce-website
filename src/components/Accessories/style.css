@@ -1,0 +1,62 @@
+.accessories{
+    border-top: 4px solid black;
+}
+.item{
+    height: 30em;
+    width: 20em;
+    font-family: "QuickSand", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: .5em;
+    padding: 1px;
+    background-color: white;
+    transition: transform 300ms bounce;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.item-title{
+    text-align: center;
+}
+img {
+    height: 20em;
+}
+#product-description{
+    font-size: 1em;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: lighter;
+    margin: 0;
+}
+#product-price{
+    font-size: 1em;
+}
+
+.price-add{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    color: lightgrey;
+    transition: .5s;
+}
+
+i:hover{
+    color: grey;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.accessories-title{
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    margin: 3em  0;
+    justify-content: center;
+    font-weight: lighter;
+    color: rgba(0,0,0,0.8);
+}

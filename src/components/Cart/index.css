@@ -1,0 +1,49 @@
+.cart {
+    border-top: 4px solid black;
+    display: flex;
+}
+
+#cart-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.cart-item {
+    height: 30em;
+    width: 20em;
+    font-family: "QuickSand", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    padding: .1em;
+    background-color: white;
+}
+cart-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 20em;
+}
+
+#total-price{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+#total-price{
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    padding: 5em;
+    width: 30vw;
+    background-color: white;
+}
+
+#items-title{
+    text-align: center;
+}
+
+img {
+    height: 20vh;
+}
