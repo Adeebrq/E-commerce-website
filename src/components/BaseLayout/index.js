@@ -1,13 +1,14 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar2";
 import NavBar from "./components/NavBar";
 import  React, { Component } from "react";
 import "./index.css";
 
 
 const classNames = [
-    "first-header","secound-header","third-header"
+    "first-header",
+    "secound-header",
+    "third-header"
 ];
 
 class BaseLayout extends Component {
@@ -30,7 +31,7 @@ class BaseLayout extends Component {
     return(
       <div>
         <div className={className}>
-          <Navbar />
+          <NavBar />
           <Header />
         </div>
         <div className="content">
